@@ -1,0 +1,20 @@
+.contact-container {
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 500px;
+	height: auto;
+}
+
+.input-field-root {
+	margin-bottom: 20px !important;
+}
