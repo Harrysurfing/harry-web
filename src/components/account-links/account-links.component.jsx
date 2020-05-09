@@ -6,6 +6,7 @@ import IconButton from "@material-ui/core/IconButton";
 import Tooltip from "@material-ui/core/Tooltip";
 import "./account-links.style.css";
 import IconLinks from "./ICON-LINKS";
+import resume from "../../assets/HarryResume.pdf";
 
 export class AccountLinks extends Component {
 	render() {
@@ -35,7 +36,7 @@ export class AccountLinks extends Component {
 						</IconButton>
 					</Tooltip>
 				</a>
-				<a className="icon" download href="../../assets/HarryResume.pdf">
+				<a className="icon" download href={resume}>
 					<Tooltip title="Resume">
 						<IconButton>
 							<DescriptionIcon />
