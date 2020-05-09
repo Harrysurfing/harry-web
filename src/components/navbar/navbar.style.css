@@ -1,0 +1,24 @@
+.nav-container {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	position: fixed;
+	z-index: 100;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.button-white {
+	color: white;
+}
+.nav-container span {
+	margin: 0 15px;
+	font-family: "Roboto Mono", monospace;
+	cursor: pointer;
+	text-transform: capitalize;
+}
+
+.nav-container span:hover {
+	color: chocolate;
+}

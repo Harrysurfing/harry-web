@@ -1,0 +1,64 @@
+.arrow-animation {
+	position: absolute;
+	bottom: 2rem;
+	cursor: pointer;
+}
+.arrow {
+	width: 0.5rem;
+	height: 0.5rem;
+	border: 0.2rem solid;
+	border-color: transparent black black transparent;
+	transform: rotate(45deg);
+}
+
+.arrow-down {
+	-webkit-animation: slide 1s linear infinite;
+	animation: slide 1s linear infinite;
+}
+
+.delay1 {
+	-webkit-animation-delay: 0s;
+	animation-delay: 0s;
+}
+
+.delay2 {
+	-webkit-animation-delay: 1s;
+	animation-delay: 1s;
+}
+@-webkit-keyframes slide {
+	0% {
+		opacity: 0;
+		transform: translateY(-4vh);
+	}
+	20% {
+		opacity: 1;
+		transform: translateY(-2vh);
+	}
+	80% {
+		opacity: 1;
+		transform: translateY(2vh);
+	}
+	100% {
+		opacity: 0;
+		transform: translateY(4vh);
+	}
+}
+
+@keyframes slide {
+	0% {
+		opacity: 0;
+		transform: translateY(-4vh);
+	}
+	20% {
+		opacity: 1;
+		transform: translateY(-2vh);
+	}
+	80% {
+		opacity: 1;
+		transform: translateY(2vh);
+	}
+	100% {
+		opacity: 0;
+		transform: translateY(4vh);
+	}
+}

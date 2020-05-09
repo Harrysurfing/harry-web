@@ -49,7 +49,9 @@ class Contact extends Component {
 		window.emailjs
 			.send("gmail", templateId, contents)
 			.then((res) => {
-				window.alert("Your message is sent! Thank you for contacting me.");
+				window.alert(
+					"Your message has been sent! Thank you for contacting me."
+				);
 			})
 			.then(() => {
 				this.setState({
@@ -71,6 +73,7 @@ class Contact extends Component {
 		const { name, email, message } = this.state;
 		return (
 			<div className="contact-container" id="contact">
+				<h2 className="contact-header">contact me</h2>
 				<div className="form-container">
 					<form
 						onSubmit={this.handleSubmit}
@@ -106,7 +109,7 @@ class Contact extends Component {
 							variant="filled"
 							classes={{ root: "input-field-root" }}
 						/>
-						<Button type="submit" variant="contained">
+						<Button className="submit-button" type="submit" variant="contained">
 							send message
 						</Button>
 					</form>

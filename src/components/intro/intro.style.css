@@ -1,0 +1,16 @@
+.intro-container {
+	min-width: 300px;
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translateX(-50%);
+
+	font-family: "Baloo 2", cursive;
+	font-size: x-large;
+	font-weight: 600;
+}
+.typical {
+	color: #cc5200;
+}

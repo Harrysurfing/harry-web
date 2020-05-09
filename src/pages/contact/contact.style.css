@@ -2,11 +2,16 @@
 	width: 100%;
 	min-height: 100vh;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	flex-wrap: wrap;
 	align-items: center;
 }
-
+.contact-header {
+	font-size: 50px;
+	font-family: "Permanent Marker", cursive;
+	color: chocolate;
+}
 .form {
 	display: flex;
 	flex-direction: column;
@@ -17,4 +22,9 @@
 
 .input-field-root {
 	margin-bottom: 20px !important;
+}
+
+.submit-button:hover span {
+	color: chocolate;
+	font-weight: 700;
 }
