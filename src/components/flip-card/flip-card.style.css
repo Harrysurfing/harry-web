@@ -13,6 +13,7 @@
 	padding: 10px 10px;
 	width: 90%;
 	min-height: 10rem;
+	display: flex;
 	cursor: pointer;
 	border: 1px solid chocolate;
 	border-radius: 15px;
@@ -53,6 +54,14 @@
 	font-weight: 400;
 }
 @media only screen and (max-width: 767px) {
+	.card-front {
+		padding: 10px 10px 5px 15px;
+		margin: auto;
+	}
+	.card-back {
+		padding: 5px;
+		margin: auto;
+	}
 	.place {
 		font-size: medium;
 	}
@@ -62,6 +71,7 @@
 	.time {
 		font-size: small;
 	}
+
 	.list {
 		font-size: smaller;
 		line-height: 1.5em;
