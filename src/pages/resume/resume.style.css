@@ -60,3 +60,19 @@
 	opacity: 0.5;
 	margin: 10px 0;
 }
+
+@media only screen and (max-width: 767px) {
+	.logo-container {
+		display: none;
+	}
+	.section {
+		display: flex;
+		flex-direction: column;
+	}
+	.detail-row {
+		justify-content: center;
+	}
+	.card-container {
+		flex-basis: 80%;
+	}
+}

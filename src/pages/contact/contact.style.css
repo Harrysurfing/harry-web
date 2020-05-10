@@ -28,3 +28,9 @@
 	color: chocolate;
 	font-weight: 700;
 }
+
+@media only screen and (max-width: 767px) {
+	.form {
+		width: 300px;
+	}
+}

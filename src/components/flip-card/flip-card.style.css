@@ -52,3 +52,18 @@
 	color: #838c95;
 	font-weight: 400;
 }
+@media only screen and (max-width: 767px) {
+	.place {
+		font-size: medium;
+	}
+	.title {
+		font-size: small;
+	}
+	.time {
+		font-size: small;
+	}
+	.list {
+		font-size: smaller;
+		line-height: 1.5em;
+	}
+}
