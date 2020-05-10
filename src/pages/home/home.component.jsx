@@ -19,7 +19,7 @@ export class Home extends Component {
 				<div
 					id="home"
 					className="homepage-container"
-					style={{ background: `#000 url(${backImg}) no-repeat top` }}
+					style={{ background: `url(${backImg})` }}
 				>
 					<Bird />
 					<Intro />

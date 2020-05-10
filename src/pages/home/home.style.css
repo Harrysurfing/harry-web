@@ -1,7 +1,7 @@
 .homepage-container {
 	width: 100%;
 	height: 100vh;
-	display: flex;
+	display: flex -webkit-box;
 	justify-content: center;
 	align-items: center;
 	background-position-x: center;
