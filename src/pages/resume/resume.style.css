@@ -2,7 +2,7 @@
 	padding-top: 5rem;
 	height: 100vh;
 	width: 100%;
-	display: flex;
+	display: flex -webkit-box;
 	flex-direction: column;
 	overflow: scroll;
 
